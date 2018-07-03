@@ -1,0 +1,15 @@
+<div class="headerMain" fxFlex="100" fxLayoutGap="15px" fxLayout="row">
+  <div fxFlex="15" fxLayoutAlign="center center"><img src="../../../assets/images/playstore.png"></div>
+  <div fxFlex="50" fxLayoutAlign="center center" fxLayout="row">
+    <input placeholder="search" [(ngModel)]="searchItem" (ngModelChange)="doSearch()" type="text">
+    <span class="searchIcon">
+      <i style="color:white;" class="fa fa-search" area-hidden="true"></i>
+    </span>
+  </div>
+  <div fxFlex="35" fxLayoutGap="20px" fxLayoutAlign="end center" fxLayout="row">
+      <span class="iconGridStyle"><i class="fa fa-th"></i></span>
+      <span ><i class="fa fa-bell iconBellStyle"></i></span>
+      <img class="avatarStyle" src="../../../assets/images/profile.jpg">
+  </div>
+</div>
+

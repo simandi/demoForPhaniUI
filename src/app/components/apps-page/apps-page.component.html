@@ -1,0 +1,13 @@
+<div class="appsPageMainDiv" fxLayout="column">
+  <span class="MainHeading">Pre Registration Games</span>
+  <div style="margin-left:25px" fxLayout="row wrap" fxLayoutGap="15px">
+  <div class="cardMain" *ngFor="let apps of finalApps">
+    <div fxLayout="column" fxLayoutGap="5px">
+      <span fxLayoutAlign="center center"><img src="{{apps.image}}"></span>
+      <span class="appName">{{apps.name}}</span>
+      <span class="appCompany">{{apps.company}}</span>
+      <span class="appStatus" fxLayoutAlign="end center">{{apps.status}}</span>
+    </div>
+  </div>
+  </div>
+</div>

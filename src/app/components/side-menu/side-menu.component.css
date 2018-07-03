@@ -1,0 +1,26 @@
+.sidePanel {
+    background : white;
+}
+.topSidenav {
+    background-color: rgba(245, 245, 245, 0.95);
+    color:grey;
+}
+.horizontalLine {
+    border-top: 1px solid #A6ACAF;
+    margin-right:15px;
+}
+.topRightPanel {
+    margin:15px 0px 80px 15px;
+}
+.bottomSidenav {
+    background:#F2F3F4;
+    color:grey;
+    padding:15px 0px 15px 15px;
+}
+.myAppsText {
+    font-size:18px;
+}
+.shopText {
+    font-size:18px;
+    color: #689f38;
+}

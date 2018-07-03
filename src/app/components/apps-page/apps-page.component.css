@@ -1,0 +1,41 @@
+.appsPageMainDiv {
+    padding:15px 20px 25px 25px;
+}
+.cardMain {
+    background: white;
+    margin-top:20px;
+    padding:15px;
+}
+.MainHeading {
+    font-size: 24px;
+    color:grey;
+    margin:20px 25px 0px 20px;
+}
+.appName {
+    color: #212121;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom:5px;
+}
+.appName:hover, .appCompany:hover, .appStatus:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.appCompany {
+    font-size:13px;
+    color:#333;
+    font-weight: 300;
+}
+.appStatus {
+    font-size: 14px;
+    color: #689f38;
+}
+img {
+height:130px;
+width:130px;
+border-radius:5px;
+}
+img:hover {
+    opacity:0.5;
+    cursor:pointer;
+}
